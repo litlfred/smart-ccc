@@ -1,0 +1,15 @@
+{
+  "branch": "claude/publish-link-mounts",
+  "sha": "f919b17",
+  "built": "2026-11-10T20:03:50Z",
+  "pr": "3",
+  "prUrl": "https://github.com/litlfred/smart-ccc/pull/3",
+  "branchUrl": "https://github.com/litlfred/smart-ccc/tree/claude/publish-link-mounts",
+  "issue": null,
+  "issueUrl": null,
+  "runUrl": "https://github.com/litlfred/smart-ccc/commit/f919b17da8826f4bd2bdb069a084cafe89e431eb",
+  "mainSite": "https://litlfred.github.io/smart-ccc/",
+  "beforeRef": "main",
+  "mainPagesKnown": false,
+  "newPages": []
+}

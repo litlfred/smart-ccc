@@ -1,0 +1,3865 @@
+{
+  "$schema": "folio-fhir-artifact-index/v2",
+  "id": "smart-ccc",
+  "title": "smart.who.int.ccc — artefact index (from the IG Publisher AST cache)",
+  "packageId": "smart.who.int.ccc",
+  "version": "0.1.0",
+  "canonicalBase": "https://smart.who.int/ccc",
+  "source": {
+    "kind": "output",
+    "of": "output-ast",
+    "revision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+    "readAt": "2026-11-10"
+  },
+  "provenance": {},
+  "sidecarApi": "unknown",
+  "count": 78,
+  "artifacts": [
+    {
+      "key": "ActivityDefinition/Ccc.b10-14.symptoms.2m.p",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b10-14.symptoms.2m.p",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b10-14.symptoms.2m.p",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b10-14.symptoms.2m.p.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b10-14.symptoms.2m.p--dcaa70b9.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b10-16.signs.2m.p",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b10-16.signs.2m.p",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b10-16.signs.2m.p",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b10-16.signs.2m.p.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b10-16.signs.2m.p--d00c530e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b18-21.signs.2m.m",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b18-21.signs.2m.m",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b18-21.signs.2m.m",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b18-21.signs.2m.m.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b18-21.signs.2m.m--ab8bc4c8.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b18-21.symptoms.2m.m",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b18-21.symptoms.2m.m",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b18-21.symptoms.2m.m",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b18-21.symptoms.2m.m.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b18-21.symptoms.2m.m--514982e8.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b22.assessmentstests",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.assessmentstests",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.assessmentstests",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b22.assessmentstests.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b22.assessmentstests--5e2075c1.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b22.breastfeeding",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.breastfeeding",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.breastfeeding",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b22.breastfeeding.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b22.breastfeeding--ed0106e3.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b22.bronchodilatortest",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.bronchodilatortest",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.bronchodilatortest",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b22.bronchodilatortest.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b22.bronchodilatortest--c0f3066c.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b22.fluidtest",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.fluidtest",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.fluidtest",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b22.fluidtest.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b22.fluidtest--adcdc38e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b22.hemoglobin",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.hemoglobin",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.hemoglobin",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b22.hemoglobin.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b22.hemoglobin--6d2e2329.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b22.respiratoryrate",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.respiratoryrate",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.respiratoryrate",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b22.respiratoryrate.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b22.respiratoryrate--a7742094.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b22.secondtemperature",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.secondtemperature",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.secondtemperature",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b22.secondtemperature.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b22.secondtemperature--5d86e262.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b23.classification",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b23.classification",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b23.classification",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b23.classification.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b23.classification--8f484818.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b23.classification.m",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b23.classification.m",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b23.classification.m",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b23.classification.m.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b23.classification.m--32302bdc.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b6.measurements",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b6.measurements",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b6.measurements",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b6.measurements.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b6.measurements--d9c287d9.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.b7.lti-dangersigns",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b7.lti-dangersigns",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b7.lti-dangersigns",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.b7.lti-dangersigns.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.b7.lti-dangersigns--258ec7b4.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccc.treatment",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.treatment",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.treatment",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccc.treatment.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccc.treatment--37043f25.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Ccca.registration.p",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccca.registration.p",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccca.registration.p",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Ccca.registration.p.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Ccca.registration.p--f205b9ff.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ActivityDefinition/Cccb.registration.e",
+      "resourceType": "ActivityDefinition",
+      "id": "Cccb.registration.e",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Cccb.registration.e",
+      "version": "0.1.0",
+      "category": "Other",
+      "code": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type",
+            "code": "collect-information",
+            "display": "Collect information"
+          }
+        ]
+      },
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/activitydefinition/activitydefinition-Cccb.registration.e.json"
+        },
+        "localPath": "output-ast/resources/ActivityDefinition/Cccb.registration.e--c1bcf4e6.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "ImplementationGuide/smart.who.int.ccc",
+      "resourceType": "ImplementationGuide",
+      "id": "smart.who.int.ccc",
+      "name": "Ccc",
+      "title": "WHO FHIR Implementation Guide (IG): Integrated Management of Childhood Illness (IMCI) in emergencies",
+      "description": "This implementation guide provides implementation resources and guidance in support of applying the WHO recommendations on emergency care.<br/>This implementation guide is part of the WHO Smart Guidelines approach to support countries to integrate WHO global data and health recommendations into digital systems accurately and consistently.",
+      "canonical": "https://smart.who.int/ccc/ImplementationGuide/smart.who.int.ccc",
+      "version": "0.1.0",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "fsh-generated/resources/ImplementationGuide-smart.who.int.ccc.json"
+        },
+        "localPath": "output-ast/resources/ImplementationGuide/smart.who.int.ccc--8bcb8940.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb1014symptoms2mp",
+      "resourceType": "Library",
+      "id": "Cccb1014symptoms2mp",
+      "name": "Cccb1014symptoms2mp",
+      "title": "Ccc.B10-14.Symptoms.2m.p",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb1014symptoms2mp",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b10-14.symptoms.2m.p.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb1014symptoms2mp--56b8c18a.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb1016signs2mp",
+      "resourceType": "Library",
+      "id": "Cccb1016signs2mp",
+      "name": "Cccb1016signs2mp",
+      "title": "Ccc.B10-16.Signs.2m.p",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb1016signs2mp",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b10-16.signs.2m.p.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb1016signs2mp--b5c45925.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb1821signs2mm",
+      "resourceType": "Library",
+      "id": "Cccb1821signs2mm",
+      "name": "Cccb1821signs2mm",
+      "title": "Ccc.B18-21.Signs.2m.m",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb1821signs2mm",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b18-21.signs.2m.m.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb1821signs2mm--55596b60.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb1821symptoms2mm",
+      "resourceType": "Library",
+      "id": "Cccb1821symptoms2mm",
+      "name": "Cccb1821symptoms2mm",
+      "title": "Ccc.B18-21.Symptoms.2m.m",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb1821symptoms2mm",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b18-21.symptoms.2m.m.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb1821symptoms2mm--883ddace.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb22assessmentstests",
+      "resourceType": "Library",
+      "id": "Cccb22assessmentstests",
+      "name": "Cccb22assessmentstests",
+      "title": "Ccc.B22.AssessmentsTests",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb22assessmentstests",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b22.assessmentstests.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb22assessmentstests--af5219dc.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb22breastfeeding",
+      "resourceType": "Library",
+      "id": "Cccb22breastfeeding",
+      "name": "Cccb22breastfeeding",
+      "title": "Ccc.B22.BreastFeeding",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb22breastfeeding",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b22.breastfeeding.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb22breastfeeding--94d48131.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb22fluidtest",
+      "resourceType": "Library",
+      "id": "Cccb22fluidtest",
+      "name": "Cccb22fluidtest",
+      "title": "Ccc.B22.FluidTest",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb22fluidtest",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b22.fluidtest.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb22fluidtest--62d6c4f3.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb22respiratoryrate",
+      "resourceType": "Library",
+      "id": "Cccb22respiratoryrate",
+      "name": "Cccb22respiratoryrate",
+      "title": "Ccc.B22.RespiratoryRate",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb22respiratoryrate",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b22.respiratoryrate.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb22respiratoryrate--9ab8e8f8.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb22secondtemperature",
+      "resourceType": "Library",
+      "id": "Cccb22secondtemperature",
+      "name": "Cccb22secondtemperature",
+      "title": "Ccc.B22.SecondTemperature",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb22secondtemperature",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b22.secondtemperature.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb22secondtemperature--54e586d9.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb23classification",
+      "resourceType": "Library",
+      "id": "Cccb23classification",
+      "name": "Cccb23classification",
+      "title": "Ccc.B23.Classification",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb23classification",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b23.classification.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb23classification--b34bc05e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb23classificationm",
+      "resourceType": "Library",
+      "id": "Cccb23classificationm",
+      "name": "Cccb23classificationm",
+      "title": "Ccc.B23.Classification.m",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb23classificationm",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b23.classification.m.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb23classificationm--7cc09824.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb6measurements",
+      "resourceType": "Library",
+      "id": "Cccb6measurements",
+      "name": "Cccb6measurements",
+      "title": "Ccc.B6.Measurements",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb6measurements",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b6.measurements.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb6measurements--12cf55e5.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccb7ltidangersigns",
+      "resourceType": "Library",
+      "id": "Cccb7ltidangersigns",
+      "name": "Cccb7ltidangersigns",
+      "title": "Ccc.B7.LTI-DangerSigns",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb7ltidangersigns",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.b7.lti-dangersigns.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccb7ltidangersigns--7bb11fb3.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccbase",
+      "resourceType": "Library",
+      "id": "Cccbase",
+      "name": "Cccbase",
+      "title": "CccBase",
+      "canonical": "https://smart.who.int/ccc/Library/Cccbase",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Cccbase.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccbase--66be2e58.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Ccccombineddataelements",
+      "resourceType": "Library",
+      "id": "Ccccombineddataelements",
+      "name": "Ccccombineddataelements",
+      "title": "Ccc.CombinedDataElements",
+      "canonical": "https://smart.who.int/ccc/Library/Ccccombineddataelements",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.combineddataelements.json"
+        },
+        "localPath": "output-ast/resources/Library/Ccccombineddataelements--abf7e361.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Ccccondition",
+      "resourceType": "Library",
+      "id": "Ccccondition",
+      "name": "Ccccondition",
+      "title": "Ccccondition",
+      "canonical": "https://smart.who.int/ccc/Library/Ccccondition",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccccondition.json"
+        },
+        "localPath": "output-ast/resources/Library/Ccccondition--0061a08e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccdt01",
+      "resourceType": "Library",
+      "id": "Cccdt01",
+      "name": "Cccdt01",
+      "title": "Cccdt01",
+      "canonical": "https://smart.who.int/ccc/Library/Cccdt01",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Cccdt01.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccdt01--4659d6ea.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccobservation",
+      "resourceType": "Library",
+      "id": "Cccobservation",
+      "name": "Cccobservation",
+      "title": "Cccobservation",
+      "canonical": "https://smart.who.int/ccc/Library/Cccobservation",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Cccobservation.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccobservation--4b389604.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccobservationvalueset",
+      "resourceType": "Library",
+      "id": "Cccobservationvalueset",
+      "name": "Cccobservation-valueset",
+      "title": "Cccobservation-valueset",
+      "canonical": "https://smart.who.int/ccc/Library/Cccobservationvalueset",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Cccobservation-valueset.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccobservationvalueset--e765160b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Ccctreatment",
+      "resourceType": "Library",
+      "id": "Ccctreatment",
+      "name": "Ccctreatment",
+      "title": "Ccc.Treatment",
+      "canonical": "https://smart.who.int/ccc/Library/Ccctreatment",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccc.treatment.json"
+        },
+        "localPath": "output-ast/resources/Library/Ccctreatment--0d452fcc.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Cccvalueset",
+      "resourceType": "Library",
+      "id": "Cccvalueset",
+      "name": "Cccvalueset",
+      "title": "Cccvalueset",
+      "canonical": "https://smart.who.int/ccc/Library/Cccvalueset",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Cccvalueset.json"
+        },
+        "localPath": "output-ast/resources/Library/Cccvalueset--4a4bdafc.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Library/Ccczscore",
+      "resourceType": "Library",
+      "id": "Ccczscore",
+      "name": "Ccczscore",
+      "title": "Ccc.Z.Score",
+      "canonical": "https://smart.who.int/ccc/Library/Ccczscore",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/library/library-Ccczscore.json"
+        },
+        "localPath": "output-ast/resources/Library/Ccczscore--ce6633e4.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "PlanDefinition/Cccdt01",
+      "resourceType": "PlanDefinition",
+      "id": "Cccdt01",
+      "name": "Cccdt01",
+      "title": "Cccdt01",
+      "canonical": "https://smart.who.int/ccc/PlanDefinition/Cccdt01",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/plandefinition/plandefinition-Ccc.json"
+        },
+        "localPath": "output-ast/resources/PlanDefinition/Cccdt01--8f5403af.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b10-14.symptoms.2m.p",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b10-14.symptoms.2m.p",
+      "name": "Ccc.B10-14.Symptoms.2m.p",
+      "title": "Ccc.B10-14.Symptoms.2m.p",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b10-14.symptoms.2m.p",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b10-14.symptoms.2m.p.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b10-14.symptoms.2m.p--a9daf721.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b10-16.signs.2m.p",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b10-16.signs.2m.p",
+      "name": "Ccc.B10-16.Signs.2m.p",
+      "title": "Ccc.B10-16.Signs.2m.p",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b10-16.signs.2m.p",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b10-16.signs.2m.p.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b10-16.signs.2m.p--cc10bfb4.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b18-21.signs.2m.m",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b18-21.signs.2m.m",
+      "name": "Ccc.B18-21.Signs.2m.m",
+      "title": "Ccc.B18-21.Signs.2m.m",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b18-21.signs.2m.m",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b18-21.signs.2m.m.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b18-21.signs.2m.m--8c58a3d8.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b18-21.symptoms.2m.m",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b18-21.symptoms.2m.m",
+      "name": "Ccc.B18-21.Symptoms.2m.m",
+      "title": "Ccc.B18-21.Symptoms.2m.m",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b18-21.symptoms.2m.m",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b18-21.symptoms.2m.m.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b18-21.symptoms.2m.m--0636beaf.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b22.assessmentstests",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.assessmentstests",
+      "name": "Ccc.B22.AssessmentsTests",
+      "title": "Ccc.B22.AssessmentsTests",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.assessmentstests",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b22.assessmentstests.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b22.assessmentstests--9d09377b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b22.breastfeeding",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.breastfeeding",
+      "name": "Ccc.B22.BreastFeeding",
+      "title": "Ccc.B22.BreastFeeding",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.breastfeeding",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b22.breastfeeding.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b22.breastfeeding--defba850.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b22.bronchodilatortest",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.bronchodilatortest",
+      "name": "Ccc.B22.BronchodilatorTest",
+      "title": "Ccc.B22.BronchodilatorTest",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.bronchodilatortest",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b22.bronchodilatortest.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b22.bronchodilatortest--46af9dfa.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b22.fluidtest",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.fluidtest",
+      "name": "Ccc.B22.FluidTest",
+      "title": "Ccc.B22.FluidTest",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.fluidtest",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b22.fluidtest.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b22.fluidtest--87a8efef.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b22.hemoglobin",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.hemoglobin",
+      "name": "Ccc.B22.Hemoglobin",
+      "title": "Ccc.B22.Hemoglobin",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.hemoglobin",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b22.hemoglobin.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b22.hemoglobin--1e3e8a21.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b22.respiratoryrate",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.respiratoryrate",
+      "name": "Ccc.B22.RespiratoryRate",
+      "title": "Ccc.B22.RespiratoryRate",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.respiratoryrate",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b22.respiratoryrate.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b22.respiratoryrate--2ee681aa.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b22.secondtemperature",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.secondtemperature",
+      "name": "Ccc.B22.SecondTemperature",
+      "title": "Ccc.B22.SecondTemperature",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.secondtemperature",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b22.secondtemperature.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b22.secondtemperature--2474d08b.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b23.classification",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b23.classification",
+      "name": "Ccc.B23.Classification",
+      "title": "Ccc.B23.Classification",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b23.classification",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b23.classification.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b23.classification--431316e6.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b23.classification.m",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b23.classification.m",
+      "name": "Ccc.B23.Classification.m",
+      "title": "Ccc.B23.Classification.m",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b23.classification.m",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b23.classification.m.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b23.classification.m--244c7ce9.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b6.measurements",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b6.measurements",
+      "name": "Ccc.B6.Measurements",
+      "title": "Ccc.B6.Measurements",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b6.measurements",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b6.measurements.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b6.measurements--2e39aac6.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.b7.lti-dangersigns",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b7.lti-dangersigns",
+      "name": "Ccc.B7.LTI-DangerSigns",
+      "title": "Ccc.B7.LTI-DangerSigns",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b7.lti-dangersigns",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.b7.lti-dangersigns.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.b7.lti-dangersigns--0592e408.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccc.treatment",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.treatment",
+      "name": "Ccc.Treatment",
+      "title": "Ccc.Treatment",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.treatment",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccc.treatment.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccc.treatment--894eebb9.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Ccca.registration.p",
+      "resourceType": "Questionnaire",
+      "id": "Ccca.registration.p",
+      "name": "CccA.Registration.P",
+      "title": "CccA.Registration.P",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccca.registration.p",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Ccca.registration.p.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Ccca.registration.p--86cdc61d.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "Questionnaire/Cccb.registration.e",
+      "resourceType": "Questionnaire",
+      "id": "Cccb.registration.e",
+      "name": "CccB.Registration.E",
+      "title": "CccB.Registration.E",
+      "canonical": "https://smart.who.int/ccc//Questionnaire/Cccb.registration.e",
+      "version": "0.1.0",
+      "category": "Other",
+      "profiles": [
+        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire"
+      ],
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/questionnaire/questionnaire-Cccb.registration.e.json"
+        },
+        "localPath": "output-ast/resources/Questionnaire/Cccb.registration.e--b204e4dd.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b10-14.symptoms.2m.p",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b10-14.symptoms.2m.p",
+      "name": "Ccc.b10-14.symptoms.2m.p",
+      "title": "Ccc.b10-14.symptoms.2m.p",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b10-14.symptoms.2m.p",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b10-14.symptoms.2m.p.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b10-14.symptoms.2m.p--dbaa38c1.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b10-16.signs.2m.p",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b10-16.signs.2m.p",
+      "name": "Ccc.b10-16.signs.2m.p",
+      "title": "Ccc.b10-16.signs.2m.p",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b10-16.signs.2m.p",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b10-16.signs.2m.p.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b10-16.signs.2m.p--217a8ab3.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b18-21.signs.2m.m",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b18-21.signs.2m.m",
+      "name": "Ccc.b18-21.signs.2m.m",
+      "title": "Ccc.b18-21.signs.2m.m",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b18-21.signs.2m.m",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b18-21.signs.2m.m.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b18-21.signs.2m.m--a2055540.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b18-21.symptoms.2m.m",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b18-21.symptoms.2m.m",
+      "name": "Ccc.b18-21.symptoms.2m.m",
+      "title": "Ccc.b18-21.symptoms.2m.m",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b18-21.symptoms.2m.m",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b18-21.symptoms.2m.m.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b18-21.symptoms.2m.m--f5aa3d1a.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b22.assessmentstests",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.assessmentstests",
+      "name": "Ccc.b22.assessmentstests",
+      "title": "Ccc.b22.assessmentstests",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.assessmentstests",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b22.assessmentstests.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b22.assessmentstests--e9a7f48a.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b22.breastfeeding",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.breastfeeding",
+      "name": "Ccc.b22.breastfeeding",
+      "title": "Ccc.b22.breastfeeding",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.breastfeeding",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b22.breastfeeding.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b22.breastfeeding--c4d9ae4d.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b22.bronchodilatortest",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.bronchodilatortest",
+      "name": "Ccc.b22.bronchodilatortest",
+      "title": "Ccc.b22.bronchodilatortest",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.bronchodilatortest",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b22.bronchodilatortest.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b22.bronchodilatortest--3fc5648f.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b22.fluidtest",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.fluidtest",
+      "name": "Ccc.b22.fluidtest",
+      "title": "Ccc.b22.fluidtest",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.fluidtest",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b22.fluidtest.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b22.fluidtest--e8eeb780.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b22.hemoglobin",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.hemoglobin",
+      "name": "Ccc.b22.hemoglobin",
+      "title": "Ccc.b22.hemoglobin",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.hemoglobin",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b22.hemoglobin.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b22.hemoglobin--70c4f03e.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b22.respiratoryrate",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.respiratoryrate",
+      "name": "Ccc.b22.respiratoryrate",
+      "title": "Ccc.b22.respiratoryrate",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.respiratoryrate",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b22.respiratoryrate.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b22.respiratoryrate--76cc6f1c.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b22.secondtemperature",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.secondtemperature",
+      "name": "Ccc.b22.secondtemperature",
+      "title": "Ccc.b22.secondtemperature",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.secondtemperature",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b22.secondtemperature.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b22.secondtemperature--13214d6c.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b23.classification",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b23.classification",
+      "name": "Ccc.b23.classification",
+      "title": "Ccc.b23.classification",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b23.classification",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b23.classification.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b23.classification--5fc65c62.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b23.classification.m",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b23.classification.m",
+      "name": "Ccc.b23.classification.m",
+      "title": "Ccc.b23.classification.m",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b23.classification.m",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b23.classification.m.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b23.classification.m--87573712.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b6.measurements",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b6.measurements",
+      "name": "Ccc.b6.measurements",
+      "title": "Ccc.b6.measurements",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b6.measurements",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b6.measurements.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b6.measurements--caf8eda1.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.b7.lti-dangersigns",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b7.lti-dangersigns",
+      "name": "Ccc.b7.lti-dangersigns",
+      "title": "Ccc.b7.lti-dangersigns",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b7.lti-dangersigns",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.b7.lti-dangersigns.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.b7.lti-dangersigns--2abee54f.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccc.treatment",
+      "resourceType": "StructureMap",
+      "id": "Ccc.treatment",
+      "name": "Ccc.treatment",
+      "title": "Ccc.treatment",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.treatment",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccc.treatment.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccc.treatment--6c7d3124.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Ccca.registration.p",
+      "resourceType": "StructureMap",
+      "id": "Ccca.registration.p",
+      "name": "Ccca.registration.p",
+      "title": "Ccca.registration.p",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccca.registration.p",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Ccca.registration.p.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Ccca.registration.p--f6b9ef6a.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    },
+    {
+      "key": "StructureMap/Cccb.registration.e",
+      "resourceType": "StructureMap",
+      "id": "Cccb.registration.e",
+      "name": "Cccb.registration.e",
+      "title": "Cccb.registration.e",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Cccb.registration.e",
+      "version": "0.1.0",
+      "category": "Other",
+      "published": {},
+      "materialization": {
+        "state": "materialized",
+        "provenance": {
+          "local": "input/resources/structuremap/structuremap-Cccb.registration.e.json"
+        },
+        "localPath": "output-ast/resources/StructureMap/Cccb.registration.e--3ac69085.json",
+        "gates": {
+          "size": {
+            "verdict": "unknown",
+            "basis": "ig-ast validity does not measure the AST's size"
+          },
+          "restrictions": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          },
+          "retention": {
+            "verdict": "permitted",
+            "basis": "a compiled cache, regenerable from its inputs by a full IG Publisher run"
+          },
+          "sourceLoss": {
+            "verdict": "unknown",
+            "basis": "a compiled copy is derived, not the source; it cannot stand in for it"
+          },
+          "copyright": {
+            "verdict": "unknown",
+            "basis": "derived from the IG's own source; inherits its terms, not assessed here"
+          }
+        },
+        "purpose": "compiled",
+        "inputs": {
+          "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+          "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+          "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+        },
+        "materializedAt": "2026-11-10T19:28:45.799999541Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "folio-site-build/v1",
+  "instance": "smart-ccc",
+  "platform": {
+    "commit": "a6753f2fda6b5b67e00bec86a7e09506f86af327"
+  },
+  "source": {
+    "repo": "litlfred/smart-ccc",
+    "ref": "claude/publish-link-mounts",
+    "commit": "f919b17da8826f4bd2bdb069a084cafe89e431eb"
+  },
+  "builtAt": "2026-11-10T20:03:39.415Z",
+  "ast": {
+    "commit": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+    "verdict": "valid",
+    "kind": "full"
+  }
+}
