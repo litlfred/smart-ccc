@@ -1,0 +1,1068 @@
+{
+  "$schema": "ig-ast/v1",
+  "authority": "cache",
+  "provisional": [
+    "indices",
+    "dependencies",
+    "versions"
+  ],
+  "provisionalUntil": "a full IG Publisher run",
+  "generatedAt": "2026-11-10T19:28:45.799999541Z",
+  "ig": {
+    "root": ".",
+    "version": "4.0.1"
+  },
+  "inputDigestMode": {
+    "mode": "git"
+  },
+  "inputs": {
+    "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
+    "sourceRevision": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa",
+    "inputDigest": "a2657b285695cce1d12a1f50f062034116ced4c8db5972a59622f6ad9cc4d7fe"
+  },
+  "packages": [
+    {
+      "id": "hl7.fhir.r4.core",
+      "version": "4.0.1",
+      "canonical": "http://hl7.org/fhir",
+      "fhirVersion": "4.0.1",
+      "dependencies": []
+    },
+    {
+      "id": "hl7.fhir.uv.cpg",
+      "version": "2.0.0",
+      "canonical": "http://hl7.org/fhir/uv/cpg",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.1.0",
+        "hl7.terminology.r4#6.1.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.cql",
+      "version": "1.0.0",
+      "canonical": "http://hl7.org/fhir/uv/cql",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.1.0",
+        "hl7.terminology#5.5.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.cql",
+      "version": "2.0.0",
+      "canonical": "http://hl7.org/fhir/uv/cql",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.2.0",
+        "hl7.terminology.r4#6.5.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.crmi",
+      "version": "1.0.0",
+      "canonical": "http://hl7.org/fhir/uv/crmi",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.1.0",
+        "hl7.terminology#5.5.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.crmi",
+      "version": "2.0.0",
+      "canonical": "http://hl7.org/fhir/uv/crmi",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.3.0",
+        "hl7.terminology.r4#7.2.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.extensions.r4",
+      "version": "1.0.0",
+      "canonical": "http://hl7.org/fhir/extensions",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.extensions.r4",
+      "version": "5.1.0",
+      "canonical": "http://hl7.org/fhir/extensions",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.extensions.r4",
+      "version": "5.3.0-ballot-tc1",
+      "canonical": "http://hl7.org/fhir/extensions",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.terminology.r4#6.5.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.extensions.r5",
+      "version": "5.2.0",
+      "canonical": "http://hl7.org/fhir/extensions",
+      "fhirVersion": "5.0.0",
+      "dependencies": [
+        "hl7.fhir.r5.core#5.0.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.extensions.r5",
+      "version": "5.3.0",
+      "canonical": "http://hl7.org/fhir/extensions",
+      "fhirVersion": "5.0.0",
+      "dependencies": [
+        "hl7.terminology.r5#7.1.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.sdc",
+      "version": "3.0.0",
+      "canonical": "http://hl7.org/fhir/uv/sdc",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.r4.examples#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.sdc",
+      "version": "4.0.0",
+      "canonical": "http://hl7.org/fhir/uv/sdc",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.r4.examples#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.3.0-ballot-tc1",
+        "hl7.fhir.uv.tools.r4#1.1.2",
+        "hl7.fhir.uv.xver-r5.r4#0.1.0",
+        "hl7.terminology.r4#7.1.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.tools.r4",
+      "version": "1.1.2",
+      "canonical": "http://hl7.org/fhir/tools",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.2.0",
+        "hl7.terminology.r4#7.1.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.tools.r4",
+      "version": "1.3.0",
+      "canonical": "http://hl7.org/fhir/tools",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.3.0",
+        "hl7.terminology.r4#7.4.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.xver-r5.r4",
+      "version": "0.1.0",
+      "canonical": "http://hl7.org/fhir/uv/xver",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.2.0",
+        "hl7.terminology.r4#7.1.0"
+      ]
+    },
+    {
+      "id": "hl7.terminology",
+      "version": "5.5.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#1.0.0"
+      ]
+    },
+    {
+      "id": "hl7.terminology",
+      "version": "7.3.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "5.0.0",
+      "dependencies": [
+        "hl7.fhir.r5.core#5.0.0",
+        "hl7.fhir.uv.extensions.r5#5.3.0"
+      ]
+    },
+    {
+      "id": "hl7.terminology.r4",
+      "version": "6.1.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1"
+      ]
+    },
+    {
+      "id": "hl7.terminology.r4",
+      "version": "6.5.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.2.0"
+      ]
+    },
+    {
+      "id": "hl7.terminology.r4",
+      "version": "7.1.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.2.0"
+      ]
+    },
+    {
+      "id": "hl7.terminology.r4",
+      "version": "7.2.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.extensions.r4#5.3.0"
+      ]
+    },
+    {
+      "id": "hl7.terminology.r5",
+      "version": "7.1.0",
+      "canonical": "http://terminology.hl7.org",
+      "fhirVersion": "5.0.0",
+      "dependencies": [
+        "hl7.fhir.uv.extensions.r5#5.2.0"
+      ]
+    },
+    {
+      "id": "smart.who.int.base",
+      "version": "current",
+      "canonical": "http://smart.who.int/base",
+      "fhirVersion": "4.0.1",
+      "dependencies": [
+        "hl7.fhir.r4.core#4.0.1",
+        "hl7.fhir.uv.cpg#2.0.0",
+        "hl7.fhir.uv.cql#2.0.0",
+        "hl7.fhir.uv.crmi#2.0.0",
+        "hl7.fhir.uv.extensions.r4#5.3.0",
+        "hl7.fhir.uv.sdc#4.0.0",
+        "hl7.terminology#7.3.0"
+      ]
+    }
+  ],
+  "terminology": {
+    "server": {
+      "address": "https://tx.fhir.org/r4",
+      "version": "0.18.2"
+    },
+    "expansions": []
+  },
+  "toolchain": {
+    "publisher": "3.0.0",
+    "core": "7.0.1",
+    "sushi": "SUSHI v3.21.0 (implements FHIR Shorthand specification v3.0.0)",
+    "java": "17.0.21"
+  },
+  "resources": [
+    {
+      "key": "https://smart.who.int/ccc//Questionnaire/Cccb.registration.e|0.1.0",
+      "canonical": "https://smart.who.int/ccc//Questionnaire/Cccb.registration.e",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Cccb.registration.e",
+      "name": "CccB.Registration.E",
+      "file": "resources/Questionnaire/Cccb.registration.e--b204e4dd.json",
+      "source": "input/resources/questionnaire/questionnaire-Cccb.registration.e.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b10-14.symptoms.2m.p|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b10-14.symptoms.2m.p",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b10-14.symptoms.2m.p",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b10-14.symptoms.2m.p--dcaa70b9.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b10-14.symptoms.2m.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b10-16.signs.2m.p|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b10-16.signs.2m.p",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b10-16.signs.2m.p",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b10-16.signs.2m.p--d00c530e.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b10-16.signs.2m.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b18-21.signs.2m.m|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b18-21.signs.2m.m",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b18-21.signs.2m.m",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b18-21.signs.2m.m--ab8bc4c8.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b18-21.signs.2m.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b18-21.symptoms.2m.m|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b18-21.symptoms.2m.m",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b18-21.symptoms.2m.m",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b18-21.symptoms.2m.m--514982e8.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b18-21.symptoms.2m.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.assessmentstests|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.assessmentstests",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.assessmentstests",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b22.assessmentstests--5e2075c1.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b22.assessmentstests.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.breastfeeding|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.breastfeeding",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.breastfeeding",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b22.breastfeeding--ed0106e3.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b22.breastfeeding.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.bronchodilatortest|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.bronchodilatortest",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.bronchodilatortest",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b22.bronchodilatortest--c0f3066c.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b22.bronchodilatortest.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.fluidtest|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.fluidtest",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.fluidtest",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b22.fluidtest--adcdc38e.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b22.fluidtest.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.hemoglobin|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.hemoglobin",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.hemoglobin",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b22.hemoglobin--6d2e2329.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b22.hemoglobin.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.respiratoryrate|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.respiratoryrate",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.respiratoryrate",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b22.respiratoryrate--a7742094.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b22.respiratoryrate.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.secondtemperature|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.secondtemperature",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b22.secondtemperature",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b22.secondtemperature--5d86e262.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b22.secondtemperature.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b23.classification.m|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b23.classification.m",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b23.classification.m",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b23.classification.m--32302bdc.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b23.classification.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b23.classification|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b23.classification",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b23.classification",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b23.classification--8f484818.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b23.classification.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b6.measurements|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b6.measurements",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b6.measurements",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b6.measurements--d9c287d9.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b6.measurements.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b7.lti-dangersigns|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b7.lti-dangersigns",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.b7.lti-dangersigns",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.b7.lti-dangersigns--258ec7b4.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.b7.lti-dangersigns.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccc.treatment|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccc.treatment",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccc.treatment",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccc.treatment--37043f25.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccc.treatment.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Ccca.registration.p|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Ccca.registration.p",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Ccca.registration.p",
+      "name": null,
+      "file": "resources/ActivityDefinition/Ccca.registration.p--f205b9ff.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Ccca.registration.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ActivityDefinition/Cccb.registration.e|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ActivityDefinition/Cccb.registration.e",
+      "version": "0.1.0",
+      "resourceType": "ActivityDefinition",
+      "id": "Cccb.registration.e",
+      "name": null,
+      "file": "resources/ActivityDefinition/Cccb.registration.e--c1bcf4e6.json",
+      "source": "input/resources/activitydefinition/activitydefinition-Cccb.registration.e.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/ImplementationGuide/smart.who.int.ccc|0.1.0",
+      "canonical": "https://smart.who.int/ccc/ImplementationGuide/smart.who.int.ccc",
+      "version": "0.1.0",
+      "resourceType": "ImplementationGuide",
+      "id": "smart.who.int.ccc",
+      "name": "Ccc",
+      "file": "resources/ImplementationGuide/smart.who.int.ccc--8bcb8940.json",
+      "source": "fsh-generated/resources/ImplementationGuide-smart.who.int.ccc.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb1014symptoms2mp|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb1014symptoms2mp",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb1014symptoms2mp",
+      "name": "Cccb1014symptoms2mp",
+      "file": "resources/Library/Cccb1014symptoms2mp--56b8c18a.json",
+      "source": "input/resources/library/library-Ccc.b10-14.symptoms.2m.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb1016signs2mp|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb1016signs2mp",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb1016signs2mp",
+      "name": "Cccb1016signs2mp",
+      "file": "resources/Library/Cccb1016signs2mp--b5c45925.json",
+      "source": "input/resources/library/library-Ccc.b10-16.signs.2m.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb1821signs2mm|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb1821signs2mm",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb1821signs2mm",
+      "name": "Cccb1821signs2mm",
+      "file": "resources/Library/Cccb1821signs2mm--55596b60.json",
+      "source": "input/resources/library/library-Ccc.b18-21.signs.2m.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb1821symptoms2mm|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb1821symptoms2mm",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb1821symptoms2mm",
+      "name": "Cccb1821symptoms2mm",
+      "file": "resources/Library/Cccb1821symptoms2mm--883ddace.json",
+      "source": "input/resources/library/library-Ccc.b18-21.symptoms.2m.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb22assessmentstests|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb22assessmentstests",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb22assessmentstests",
+      "name": "Cccb22assessmentstests",
+      "file": "resources/Library/Cccb22assessmentstests--af5219dc.json",
+      "source": "input/resources/library/library-Ccc.b22.assessmentstests.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb22breastfeeding|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb22breastfeeding",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb22breastfeeding",
+      "name": "Cccb22breastfeeding",
+      "file": "resources/Library/Cccb22breastfeeding--94d48131.json",
+      "source": "input/resources/library/library-Ccc.b22.breastfeeding.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb22fluidtest|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb22fluidtest",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb22fluidtest",
+      "name": "Cccb22fluidtest",
+      "file": "resources/Library/Cccb22fluidtest--62d6c4f3.json",
+      "source": "input/resources/library/library-Ccc.b22.fluidtest.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb22respiratoryrate|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb22respiratoryrate",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb22respiratoryrate",
+      "name": "Cccb22respiratoryrate",
+      "file": "resources/Library/Cccb22respiratoryrate--9ab8e8f8.json",
+      "source": "input/resources/library/library-Ccc.b22.respiratoryrate.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb22secondtemperature|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb22secondtemperature",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb22secondtemperature",
+      "name": "Cccb22secondtemperature",
+      "file": "resources/Library/Cccb22secondtemperature--54e586d9.json",
+      "source": "input/resources/library/library-Ccc.b22.secondtemperature.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb23classificationm|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb23classificationm",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb23classificationm",
+      "name": "Cccb23classificationm",
+      "file": "resources/Library/Cccb23classificationm--7cc09824.json",
+      "source": "input/resources/library/library-Ccc.b23.classification.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb23classification|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb23classification",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb23classification",
+      "name": "Cccb23classification",
+      "file": "resources/Library/Cccb23classification--b34bc05e.json",
+      "source": "input/resources/library/library-Ccc.b23.classification.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb6measurements|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb6measurements",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb6measurements",
+      "name": "Cccb6measurements",
+      "file": "resources/Library/Cccb6measurements--12cf55e5.json",
+      "source": "input/resources/library/library-Ccc.b6.measurements.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccb7ltidangersigns|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccb7ltidangersigns",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccb7ltidangersigns",
+      "name": "Cccb7ltidangersigns",
+      "file": "resources/Library/Cccb7ltidangersigns--7bb11fb3.json",
+      "source": "input/resources/library/library-Ccc.b7.lti-dangersigns.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccbase|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccbase",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccbase",
+      "name": "Cccbase",
+      "file": "resources/Library/Cccbase--66be2e58.json",
+      "source": "input/resources/library/library-Cccbase.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Ccccombineddataelements|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Ccccombineddataelements",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Ccccombineddataelements",
+      "name": "Ccccombineddataelements",
+      "file": "resources/Library/Ccccombineddataelements--abf7e361.json",
+      "source": "input/resources/library/library-Ccc.combineddataelements.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Ccccondition|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Ccccondition",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Ccccondition",
+      "name": "Ccccondition",
+      "file": "resources/Library/Ccccondition--0061a08e.json",
+      "source": "input/resources/library/library-Ccccondition.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccdt01|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccdt01",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccdt01",
+      "name": "Cccdt01",
+      "file": "resources/Library/Cccdt01--4659d6ea.json",
+      "source": "input/resources/library/library-Cccdt01.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccobservationvalueset|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccobservationvalueset",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccobservationvalueset",
+      "name": "Cccobservation-valueset",
+      "file": "resources/Library/Cccobservationvalueset--e765160b.json",
+      "source": "input/resources/library/library-Cccobservation-valueset.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccobservation|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccobservation",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccobservation",
+      "name": "Cccobservation",
+      "file": "resources/Library/Cccobservation--4b389604.json",
+      "source": "input/resources/library/library-Cccobservation.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Ccctreatment|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Ccctreatment",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Ccctreatment",
+      "name": "Ccctreatment",
+      "file": "resources/Library/Ccctreatment--0d452fcc.json",
+      "source": "input/resources/library/library-Ccc.treatment.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Cccvalueset|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Cccvalueset",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Cccvalueset",
+      "name": "Cccvalueset",
+      "file": "resources/Library/Cccvalueset--4a4bdafc.json",
+      "source": "input/resources/library/library-Cccvalueset.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Library/Ccczscore|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Library/Ccczscore",
+      "version": "0.1.0",
+      "resourceType": "Library",
+      "id": "Ccczscore",
+      "name": "Ccczscore",
+      "file": "resources/Library/Ccczscore--ce6633e4.json",
+      "source": "input/resources/library/library-Ccczscore.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/PlanDefinition/Cccdt01|0.1.0",
+      "canonical": "https://smart.who.int/ccc/PlanDefinition/Cccdt01",
+      "version": "0.1.0",
+      "resourceType": "PlanDefinition",
+      "id": "Cccdt01",
+      "name": "Cccdt01",
+      "file": "resources/PlanDefinition/Cccdt01--8f5403af.json",
+      "source": "input/resources/plandefinition/plandefinition-Ccc.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b10-14.symptoms.2m.p|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b10-14.symptoms.2m.p",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b10-14.symptoms.2m.p",
+      "name": "Ccc.B10-14.Symptoms.2m.p",
+      "file": "resources/Questionnaire/Ccc.b10-14.symptoms.2m.p--a9daf721.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b10-14.symptoms.2m.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b10-16.signs.2m.p|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b10-16.signs.2m.p",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b10-16.signs.2m.p",
+      "name": "Ccc.B10-16.Signs.2m.p",
+      "file": "resources/Questionnaire/Ccc.b10-16.signs.2m.p--cc10bfb4.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b10-16.signs.2m.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b18-21.signs.2m.m|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b18-21.signs.2m.m",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b18-21.signs.2m.m",
+      "name": "Ccc.B18-21.Signs.2m.m",
+      "file": "resources/Questionnaire/Ccc.b18-21.signs.2m.m--8c58a3d8.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b18-21.signs.2m.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b18-21.symptoms.2m.m|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b18-21.symptoms.2m.m",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b18-21.symptoms.2m.m",
+      "name": "Ccc.B18-21.Symptoms.2m.m",
+      "file": "resources/Questionnaire/Ccc.b18-21.symptoms.2m.m--0636beaf.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b18-21.symptoms.2m.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.assessmentstests|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.assessmentstests",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.assessmentstests",
+      "name": "Ccc.B22.AssessmentsTests",
+      "file": "resources/Questionnaire/Ccc.b22.assessmentstests--9d09377b.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b22.assessmentstests.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.breastfeeding|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.breastfeeding",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.breastfeeding",
+      "name": "Ccc.B22.BreastFeeding",
+      "file": "resources/Questionnaire/Ccc.b22.breastfeeding--defba850.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b22.breastfeeding.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.bronchodilatortest|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.bronchodilatortest",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.bronchodilatortest",
+      "name": "Ccc.B22.BronchodilatorTest",
+      "file": "resources/Questionnaire/Ccc.b22.bronchodilatortest--46af9dfa.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b22.bronchodilatortest.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.fluidtest|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.fluidtest",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.fluidtest",
+      "name": "Ccc.B22.FluidTest",
+      "file": "resources/Questionnaire/Ccc.b22.fluidtest--87a8efef.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b22.fluidtest.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.hemoglobin|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.hemoglobin",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.hemoglobin",
+      "name": "Ccc.B22.Hemoglobin",
+      "file": "resources/Questionnaire/Ccc.b22.hemoglobin--1e3e8a21.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b22.hemoglobin.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.respiratoryrate|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.respiratoryrate",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.respiratoryrate",
+      "name": "Ccc.B22.RespiratoryRate",
+      "file": "resources/Questionnaire/Ccc.b22.respiratoryrate--2ee681aa.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b22.respiratoryrate.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.secondtemperature|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.secondtemperature",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b22.secondtemperature",
+      "name": "Ccc.B22.SecondTemperature",
+      "file": "resources/Questionnaire/Ccc.b22.secondtemperature--2474d08b.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b22.secondtemperature.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b23.classification.m|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b23.classification.m",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b23.classification.m",
+      "name": "Ccc.B23.Classification.m",
+      "file": "resources/Questionnaire/Ccc.b23.classification.m--244c7ce9.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b23.classification.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b23.classification|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b23.classification",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b23.classification",
+      "name": "Ccc.B23.Classification",
+      "file": "resources/Questionnaire/Ccc.b23.classification--431316e6.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b23.classification.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b6.measurements|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b6.measurements",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b6.measurements",
+      "name": "Ccc.B6.Measurements",
+      "file": "resources/Questionnaire/Ccc.b6.measurements--2e39aac6.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b6.measurements.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.b7.lti-dangersigns|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.b7.lti-dangersigns",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.b7.lti-dangersigns",
+      "name": "Ccc.B7.LTI-DangerSigns",
+      "file": "resources/Questionnaire/Ccc.b7.lti-dangersigns--0592e408.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.b7.lti-dangersigns.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccc.treatment|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccc.treatment",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccc.treatment",
+      "name": "Ccc.Treatment",
+      "file": "resources/Questionnaire/Ccc.treatment--894eebb9.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccc.treatment.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/Questionnaire/Ccca.registration.p|0.1.0",
+      "canonical": "https://smart.who.int/ccc/Questionnaire/Ccca.registration.p",
+      "version": "0.1.0",
+      "resourceType": "Questionnaire",
+      "id": "Ccca.registration.p",
+      "name": "CccA.Registration.P",
+      "file": "resources/Questionnaire/Ccca.registration.p--86cdc61d.json",
+      "source": "input/resources/questionnaire/questionnaire-Ccca.registration.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b10-14.symptoms.2m.p|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b10-14.symptoms.2m.p",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b10-14.symptoms.2m.p",
+      "name": "Ccc.b10-14.symptoms.2m.p",
+      "file": "resources/StructureMap/Ccc.b10-14.symptoms.2m.p--dbaa38c1.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b10-14.symptoms.2m.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b10-16.signs.2m.p|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b10-16.signs.2m.p",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b10-16.signs.2m.p",
+      "name": "Ccc.b10-16.signs.2m.p",
+      "file": "resources/StructureMap/Ccc.b10-16.signs.2m.p--217a8ab3.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b10-16.signs.2m.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b18-21.signs.2m.m|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b18-21.signs.2m.m",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b18-21.signs.2m.m",
+      "name": "Ccc.b18-21.signs.2m.m",
+      "file": "resources/StructureMap/Ccc.b18-21.signs.2m.m--a2055540.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b18-21.signs.2m.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b18-21.symptoms.2m.m|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b18-21.symptoms.2m.m",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b18-21.symptoms.2m.m",
+      "name": "Ccc.b18-21.symptoms.2m.m",
+      "file": "resources/StructureMap/Ccc.b18-21.symptoms.2m.m--f5aa3d1a.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b18-21.symptoms.2m.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b22.assessmentstests|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.assessmentstests",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.assessmentstests",
+      "name": "Ccc.b22.assessmentstests",
+      "file": "resources/StructureMap/Ccc.b22.assessmentstests--e9a7f48a.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b22.assessmentstests.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b22.breastfeeding|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.breastfeeding",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.breastfeeding",
+      "name": "Ccc.b22.breastfeeding",
+      "file": "resources/StructureMap/Ccc.b22.breastfeeding--c4d9ae4d.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b22.breastfeeding.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b22.bronchodilatortest|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.bronchodilatortest",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.bronchodilatortest",
+      "name": "Ccc.b22.bronchodilatortest",
+      "file": "resources/StructureMap/Ccc.b22.bronchodilatortest--3fc5648f.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b22.bronchodilatortest.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b22.fluidtest|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.fluidtest",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.fluidtest",
+      "name": "Ccc.b22.fluidtest",
+      "file": "resources/StructureMap/Ccc.b22.fluidtest--e8eeb780.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b22.fluidtest.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b22.hemoglobin|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.hemoglobin",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.hemoglobin",
+      "name": "Ccc.b22.hemoglobin",
+      "file": "resources/StructureMap/Ccc.b22.hemoglobin--70c4f03e.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b22.hemoglobin.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b22.respiratoryrate|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.respiratoryrate",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.respiratoryrate",
+      "name": "Ccc.b22.respiratoryrate",
+      "file": "resources/StructureMap/Ccc.b22.respiratoryrate--76cc6f1c.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b22.respiratoryrate.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b22.secondtemperature|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b22.secondtemperature",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b22.secondtemperature",
+      "name": "Ccc.b22.secondtemperature",
+      "file": "resources/StructureMap/Ccc.b22.secondtemperature--13214d6c.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b22.secondtemperature.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b23.classification.m|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b23.classification.m",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b23.classification.m",
+      "name": "Ccc.b23.classification.m",
+      "file": "resources/StructureMap/Ccc.b23.classification.m--87573712.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b23.classification.m.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b23.classification|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b23.classification",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b23.classification",
+      "name": "Ccc.b23.classification",
+      "file": "resources/StructureMap/Ccc.b23.classification--5fc65c62.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b23.classification.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b6.measurements|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b6.measurements",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b6.measurements",
+      "name": "Ccc.b6.measurements",
+      "file": "resources/StructureMap/Ccc.b6.measurements--caf8eda1.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b6.measurements.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.b7.lti-dangersigns|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.b7.lti-dangersigns",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.b7.lti-dangersigns",
+      "name": "Ccc.b7.lti-dangersigns",
+      "file": "resources/StructureMap/Ccc.b7.lti-dangersigns--2abee54f.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.b7.lti-dangersigns.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccc.treatment|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccc.treatment",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccc.treatment",
+      "name": "Ccc.treatment",
+      "file": "resources/StructureMap/Ccc.treatment--6c7d3124.json",
+      "source": "input/resources/structuremap/structuremap-Ccc.treatment.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Ccca.registration.p|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Ccca.registration.p",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Ccca.registration.p",
+      "name": "Ccca.registration.p",
+      "file": "resources/StructureMap/Ccca.registration.p--f6b9ef6a.json",
+      "source": "input/resources/structuremap/structuremap-Ccca.registration.p.json"
+    },
+    {
+      "key": "https://smart.who.int/ccc/StructureMap/Cccb.registration.e|0.1.0",
+      "canonical": "https://smart.who.int/ccc/StructureMap/Cccb.registration.e",
+      "version": "0.1.0",
+      "resourceType": "StructureMap",
+      "id": "Cccb.registration.e",
+      "name": "Cccb.registration.e",
+      "file": "resources/StructureMap/Cccb.registration.e--3ac69085.json",
+      "source": "input/resources/structuremap/structuremap-Cccb.registration.e.json"
+    }
+  ]
+}
