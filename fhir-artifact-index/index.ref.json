@@ -1,0 +1,7 @@
+{
+  "$schema": "fhir-artifact-index-ref/v1",
+  "index": "https://raw.githubusercontent.com/litlfred/smart-ccc/ccedaac8219d08fc874536819af195f45c6eae7d/fhir-artifact-index/index.json",
+  "base": "https://raw.githubusercontent.com/litlfred/smart-ccc/ccedaac8219d08fc874536819af195f45c6eae7d/",
+  "repository": "litlfred/smart-ccc",
+  "commit": "ccedaac8219d08fc874536819af195f45c6eae7d"
+}

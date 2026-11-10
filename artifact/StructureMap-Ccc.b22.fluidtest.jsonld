@@ -21,7 +21,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-ccc/ee5c86d64583dff95e17d64c24d676aec9e7a7a1/resources/StructureMap/Ccc.b22.fluidtest--e8eeb780.json"
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-ccc/ccedaac8219d08fc874536819af195f45c6eae7d/resources/StructureMap/Ccc.b22.fluidtest.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
@@ -30,7 +30,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "8ca6522b7ffe58d70ee3ebc88e56a874fd8e8caa"
+    "prov:used": "de626e5301a81d7696ae39e46c83742ee9acb35c"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",

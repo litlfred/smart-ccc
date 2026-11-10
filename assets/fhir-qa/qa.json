@@ -1,0 +1,21 @@
+{
+  "url": "https://smart.who.int/ccc/ImplementationGuide/smart.who.int.ccc",
+  "name": "Ccc",
+  "title": "WHO FHIR Implementation Guide (IG): Integrated Management of Childhood Illness (IMCI) in emergencies",
+  "description": "This implementation guide provides implementation resources and guidance in support of applying the WHO recommendations on emergency care.<br/>This implementation guide is part of the WHO Smart Guidelines approach to support countries to integrate WHO global data and health recommendations into digital systems accurately and consistently.",
+  "ig-date": "2022-01-06",
+  "status": "draft",
+  "package-id": "smart.who.int.ccc",
+  "ig-ver": "0.1.0",
+  "date": "Tue, 10 Nov, 2026 22:50:09 +0000",
+  "dateISO8601": "2026-11-10T22:50:09+00:00",
+  "errs": 907,
+  "warnings": 2456,
+  "hints": 1632,
+  "broken-links": 431,
+  "suppressed-hints": 0,
+  "suppressed-warnings": 0,
+  "version": "4.0.1",
+  "tool": "6.0.0-snapshot1 (3)",
+  "maxMemory": 3735062384
+}
