@@ -21,10 +21,18 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-ccc/ccedaac8219d08fc874536819af195f45c6eae7d/resources/Questionnaire/Cccb.registration.e.json"
+        "@id": "../Questionnaire-Cccb.registration.e.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "local"
+    },
+    {
+      "@type": "schema:MediaObject",
+      "schema:contentUrl": {
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-ccc/ccedaac8219d08fc874536819af195f45c6eae7d/resources/Questionnaire/Cccb.registration.e.json"
+      },
+      "schema:encodingFormat": "application/fhir+json",
+      "dcterms:source": "mirror"
     }
   ],
   "prov:wasGeneratedBy": {

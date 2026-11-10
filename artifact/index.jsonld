@@ -24,6 +24,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b10-14.symptoms.2m.p"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b10-14.symptoms.2m.p.json"
       }
     },
     {
@@ -34,6 +37,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b10-16.signs.2m.p"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b10-16.signs.2m.p.json"
       }
     },
     {
@@ -44,6 +50,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b18-21.signs.2m.m"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b18-21.signs.2m.m.json"
       }
     },
     {
@@ -54,6 +63,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b18-21.symptoms.2m.m"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b18-21.symptoms.2m.m.json"
       }
     },
     {
@@ -64,6 +76,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.assessmentstests"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b22.assessmentstests.json"
       }
     },
     {
@@ -74,6 +89,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.breastfeeding"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b22.breastfeeding.json"
       }
     },
     {
@@ -84,6 +102,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.bronchodilatortest"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b22.bronchodilatortest.json"
       }
     },
     {
@@ -94,6 +115,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.fluidtest"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b22.fluidtest.json"
       }
     },
     {
@@ -104,6 +128,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.hemoglobin"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b22.hemoglobin.json"
       }
     },
     {
@@ -114,6 +141,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.respiratoryrate"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b22.respiratoryrate.json"
       }
     },
     {
@@ -124,6 +154,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b22.secondtemperature"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b22.secondtemperature.json"
       }
     },
     {
@@ -134,6 +167,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b23.classification"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b23.classification.json"
       }
     },
     {
@@ -144,6 +180,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b23.classification.m"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b23.classification.m.json"
       }
     },
     {
@@ -154,6 +193,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b6.measurements"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b6.measurements.json"
       }
     },
     {
@@ -164,6 +206,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.b7.lti-dangersigns"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.b7.lti-dangersigns.json"
       }
     },
     {
@@ -174,6 +219,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccc.treatment"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccc.treatment.json"
       }
     },
     {
@@ -184,6 +232,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Ccca.registration.p"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Ccca.registration.p.json"
       }
     },
     {
@@ -194,6 +245,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ActivityDefinition/Cccb.registration.e"
+      },
+      "schema:contentUrl": {
+        "@id": "../ActivityDefinition-Cccb.registration.e.json"
       }
     },
     {
@@ -204,6 +258,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb1014symptoms2mp"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb1014symptoms2mp.json"
       }
     },
     {
@@ -214,6 +271,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb1016signs2mp"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb1016signs2mp.json"
       }
     },
     {
@@ -224,6 +284,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb1821signs2mm"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb1821signs2mm.json"
       }
     },
     {
@@ -234,6 +297,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb1821symptoms2mm"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb1821symptoms2mm.json"
       }
     },
     {
@@ -244,6 +310,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb22assessmentstests"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb22assessmentstests.json"
       }
     },
     {
@@ -254,6 +323,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb22breastfeeding"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb22breastfeeding.json"
       }
     },
     {
@@ -264,6 +336,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb22fluidtest"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb22fluidtest.json"
       }
     },
     {
@@ -274,6 +349,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb22respiratoryrate"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb22respiratoryrate.json"
       }
     },
     {
@@ -284,6 +362,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb22secondtemperature"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb22secondtemperature.json"
       }
     },
     {
@@ -294,6 +375,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb23classification"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb23classification.json"
       }
     },
     {
@@ -304,6 +388,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb23classificationm"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb23classificationm.json"
       }
     },
     {
@@ -314,6 +401,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb6measurements"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb6measurements.json"
       }
     },
     {
@@ -324,6 +414,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccb7ltidangersigns"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccb7ltidangersigns.json"
       }
     },
     {
@@ -334,6 +427,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccbase"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccbase.json"
       }
     },
     {
@@ -344,6 +440,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Ccccombineddataelements"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Ccccombineddataelements.json"
       }
     },
     {
@@ -354,6 +453,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Ccccondition"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Ccccondition.json"
       }
     },
     {
@@ -364,6 +466,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccdt01"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccdt01.json"
       }
     },
     {
@@ -374,6 +479,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccobservation"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccobservation.json"
       }
     },
     {
@@ -384,6 +492,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccobservationvalueset"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccobservationvalueset.json"
       }
     },
     {
@@ -394,6 +505,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Ccctreatment"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Ccctreatment.json"
       }
     },
     {
@@ -404,6 +518,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Cccvalueset"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Cccvalueset.json"
       }
     },
     {
@@ -414,6 +531,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Library/Ccczscore"
+      },
+      "schema:contentUrl": {
+        "@id": "../Library-Ccczscore.json"
       }
     },
     {
@@ -424,6 +544,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/PlanDefinition/Cccdt01"
+      },
+      "schema:contentUrl": {
+        "@id": "../PlanDefinition-Cccdt01.json"
       }
     },
     {
@@ -434,6 +557,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b10-14.symptoms.2m.p"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b10-14.symptoms.2m.p.json"
       }
     },
     {
@@ -444,6 +570,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b10-16.signs.2m.p"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b10-16.signs.2m.p.json"
       }
     },
     {
@@ -454,6 +583,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b18-21.signs.2m.m"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b18-21.signs.2m.m.json"
       }
     },
     {
@@ -464,6 +596,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b18-21.symptoms.2m.m"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b18-21.symptoms.2m.m.json"
       }
     },
     {
@@ -474,6 +609,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.assessmentstests"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b22.assessmentstests.json"
       }
     },
     {
@@ -484,6 +622,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.breastfeeding"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b22.breastfeeding.json"
       }
     },
     {
@@ -494,6 +635,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.bronchodilatortest"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b22.bronchodilatortest.json"
       }
     },
     {
@@ -504,6 +648,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.fluidtest"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b22.fluidtest.json"
       }
     },
     {
@@ -514,6 +661,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.hemoglobin"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b22.hemoglobin.json"
       }
     },
     {
@@ -524,6 +674,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.respiratoryrate"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b22.respiratoryrate.json"
       }
     },
     {
@@ -534,6 +687,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b22.secondtemperature"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b22.secondtemperature.json"
       }
     },
     {
@@ -544,6 +700,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b23.classification"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b23.classification.json"
       }
     },
     {
@@ -554,6 +713,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b23.classification.m"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b23.classification.m.json"
       }
     },
     {
@@ -564,6 +726,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b6.measurements"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b6.measurements.json"
       }
     },
     {
@@ -574,6 +739,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.b7.lti-dangersigns"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.b7.lti-dangersigns.json"
       }
     },
     {
@@ -584,6 +752,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccc.treatment"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccc.treatment.json"
       }
     },
     {
@@ -594,6 +765,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/Questionnaire/Ccca.registration.p"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Ccca.registration.p.json"
       }
     },
     {
@@ -604,6 +778,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc//Questionnaire/Cccb.registration.e"
+      },
+      "schema:contentUrl": {
+        "@id": "../Questionnaire-Cccb.registration.e.json"
       }
     },
     {
@@ -614,6 +791,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b10-14.symptoms.2m.p"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b10-14.symptoms.2m.p.json"
       }
     },
     {
@@ -624,6 +804,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b10-16.signs.2m.p"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b10-16.signs.2m.p.json"
       }
     },
     {
@@ -634,6 +817,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b18-21.signs.2m.m"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b18-21.signs.2m.m.json"
       }
     },
     {
@@ -644,6 +830,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b18-21.symptoms.2m.m"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b18-21.symptoms.2m.m.json"
       }
     },
     {
@@ -654,6 +843,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b22.assessmentstests"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b22.assessmentstests.json"
       }
     },
     {
@@ -664,6 +856,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b22.breastfeeding"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b22.breastfeeding.json"
       }
     },
     {
@@ -674,6 +869,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b22.bronchodilatortest"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b22.bronchodilatortest.json"
       }
     },
     {
@@ -684,6 +882,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b22.fluidtest"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b22.fluidtest.json"
       }
     },
     {
@@ -694,6 +895,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b22.hemoglobin"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b22.hemoglobin.json"
       }
     },
     {
@@ -704,6 +908,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b22.respiratoryrate"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b22.respiratoryrate.json"
       }
     },
     {
@@ -714,6 +921,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b22.secondtemperature"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b22.secondtemperature.json"
       }
     },
     {
@@ -724,6 +934,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b23.classification"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b23.classification.json"
       }
     },
     {
@@ -734,6 +947,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b23.classification.m"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b23.classification.m.json"
       }
     },
     {
@@ -744,6 +960,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b6.measurements"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b6.measurements.json"
       }
     },
     {
@@ -754,6 +973,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.b7.lti-dangersigns"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.b7.lti-dangersigns.json"
       }
     },
     {
@@ -764,6 +986,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccc.treatment"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccc.treatment.json"
       }
     },
     {
@@ -774,6 +999,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Ccca.registration.p"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Ccca.registration.p.json"
       }
     },
     {
@@ -784,6 +1012,9 @@
       "dcterms:type": "Other",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/StructureMap/Cccb.registration.e"
+      },
+      "schema:contentUrl": {
+        "@id": "../StructureMap-Cccb.registration.e.json"
       }
     },
     {
@@ -795,6 +1026,9 @@
       "dcterms:description": "This implementation guide provides implementation resources and guidance in support of applying the WHO recommendations on emergency care.<br/>This implementation guide is part of the WHO Smart Guidelines approach to support countries to integrate WHO global data and health recommendations into digital systems accurately and consistently.",
       "schema:sameAs": {
         "@id": "https://smart.who.int/ccc/ImplementationGuide/smart.who.int.ccc"
+      },
+      "schema:contentUrl": {
+        "@id": "../ImplementationGuide-smart.who.int.ccc.json"
       }
     }
   ]
