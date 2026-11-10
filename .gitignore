@@ -19,3 +19,4 @@ input/ext_ig/*bundle.*
 /bootstrap/
 /bootstrap-tools/
 # END index mounts
+node_modules/
