@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-Ccc.b23.classification.jsonld",
+  "@id": "Questionnaire-Ccc.b23.classification",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/Ccc.b23.classification",
   "schema:name": "Ccc.B23.Classification",

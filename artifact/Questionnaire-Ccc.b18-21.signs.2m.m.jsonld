@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-Ccc.b18-21.signs.2m.m.jsonld",
+  "@id": "Questionnaire-Ccc.b18-21.signs.2m.m",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/Ccc.b18-21.signs.2m.m",
   "schema:name": "Ccc.B18-21.Signs.2m.m",

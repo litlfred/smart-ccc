@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureMap-Ccc.b10-16.signs.2m.p.jsonld",
+  "@id": "StructureMap-Ccc.b10-16.signs.2m.p",
   "@type": "fhir:StructureMap",
   "dcterms:identifier": "StructureMap/Ccc.b10-16.signs.2m.p",
   "schema:name": "Ccc.b10-16.signs.2m.p",

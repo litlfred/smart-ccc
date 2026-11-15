@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-Ccc.b6.measurements.jsonld",
+  "@id": "Questionnaire-Ccc.b6.measurements",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/Ccc.b6.measurements",
   "schema:name": "Ccc.B6.Measurements",

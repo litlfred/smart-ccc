@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureMap-Cccb.registration.e.jsonld",
+  "@id": "StructureMap-Cccb.registration.e",
   "@type": "fhir:StructureMap",
   "dcterms:identifier": "StructureMap/Cccb.registration.e",
   "schema:name": "Cccb.registration.e",

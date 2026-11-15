@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-Cccb22fluidtest.jsonld",
+  "@id": "Library-Cccb22fluidtest",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/Cccb22fluidtest",
   "schema:name": "Cccb22fluidtest",

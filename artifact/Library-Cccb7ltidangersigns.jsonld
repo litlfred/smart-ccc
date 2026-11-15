@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-Cccb7ltidangersigns.jsonld",
+  "@id": "Library-Cccb7ltidangersigns",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/Cccb7ltidangersigns",
   "schema:name": "Cccb7ltidangersigns",

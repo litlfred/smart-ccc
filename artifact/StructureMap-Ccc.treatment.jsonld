@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureMap-Ccc.treatment.jsonld",
+  "@id": "StructureMap-Ccc.treatment",
   "@type": "fhir:StructureMap",
   "dcterms:identifier": "StructureMap/Ccc.treatment",
   "schema:name": "Ccc.treatment",

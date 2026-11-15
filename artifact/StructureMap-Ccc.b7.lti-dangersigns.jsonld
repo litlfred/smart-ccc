@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureMap-Ccc.b7.lti-dangersigns.jsonld",
+  "@id": "StructureMap-Ccc.b7.lti-dangersigns",
   "@type": "fhir:StructureMap",
   "dcterms:identifier": "StructureMap/Ccc.b7.lti-dangersigns",
   "schema:name": "Ccc.b7.lti-dangersigns",

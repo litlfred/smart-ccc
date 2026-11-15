@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ActivityDefinition-Ccca.registration.p.jsonld",
+  "@id": "ActivityDefinition-Ccca.registration.p",
   "@type": "fhir:ActivityDefinition",
   "dcterms:identifier": "ActivityDefinition/Ccca.registration.p",
   "schema:version": "0.1.0",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-Cccb.registration.e.jsonld",
+  "@id": "Questionnaire-Cccb.registration.e",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/Cccb.registration.e",
   "schema:name": "CccB.Registration.E",

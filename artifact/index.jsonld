@@ -17,7 +17,7 @@
   "schema:numberOfItems": 78,
   "schema:hasPart": [
     {
-      "@id": "ActivityDefinition-Ccc.b10-14.symptoms.2m.p.jsonld",
+      "@id": "ActivityDefinition-Ccc.b10-14.symptoms.2m.p",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b10-14.symptoms.2m.p",
       "dcterms:title": "Ccc.b10-14.symptoms.2m.p",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b10-16.signs.2m.p.jsonld",
+      "@id": "ActivityDefinition-Ccc.b10-16.signs.2m.p",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b10-16.signs.2m.p",
       "dcterms:title": "Ccc.b10-16.signs.2m.p",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b18-21.signs.2m.m.jsonld",
+      "@id": "ActivityDefinition-Ccc.b18-21.signs.2m.m",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b18-21.signs.2m.m",
       "dcterms:title": "Ccc.b18-21.signs.2m.m",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b18-21.symptoms.2m.m.jsonld",
+      "@id": "ActivityDefinition-Ccc.b18-21.symptoms.2m.m",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b18-21.symptoms.2m.m",
       "dcterms:title": "Ccc.b18-21.symptoms.2m.m",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b22.assessmentstests.jsonld",
+      "@id": "ActivityDefinition-Ccc.b22.assessmentstests",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b22.assessmentstests",
       "dcterms:title": "Ccc.b22.assessmentstests",
@@ -82,7 +82,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b22.breastfeeding.jsonld",
+      "@id": "ActivityDefinition-Ccc.b22.breastfeeding",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b22.breastfeeding",
       "dcterms:title": "Ccc.b22.breastfeeding",
@@ -95,7 +95,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b22.bronchodilatortest.jsonld",
+      "@id": "ActivityDefinition-Ccc.b22.bronchodilatortest",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b22.bronchodilatortest",
       "dcterms:title": "Ccc.b22.bronchodilatortest",
@@ -108,7 +108,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b22.fluidtest.jsonld",
+      "@id": "ActivityDefinition-Ccc.b22.fluidtest",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b22.fluidtest",
       "dcterms:title": "Ccc.b22.fluidtest",
@@ -121,7 +121,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b22.hemoglobin.jsonld",
+      "@id": "ActivityDefinition-Ccc.b22.hemoglobin",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b22.hemoglobin",
       "dcterms:title": "Ccc.b22.hemoglobin",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b22.respiratoryrate.jsonld",
+      "@id": "ActivityDefinition-Ccc.b22.respiratoryrate",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b22.respiratoryrate",
       "dcterms:title": "Ccc.b22.respiratoryrate",
@@ -147,7 +147,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b22.secondtemperature.jsonld",
+      "@id": "ActivityDefinition-Ccc.b22.secondtemperature",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b22.secondtemperature",
       "dcterms:title": "Ccc.b22.secondtemperature",
@@ -160,7 +160,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b23.classification.jsonld",
+      "@id": "ActivityDefinition-Ccc.b23.classification",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b23.classification",
       "dcterms:title": "Ccc.b23.classification",
@@ -173,7 +173,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b23.classification.m.jsonld",
+      "@id": "ActivityDefinition-Ccc.b23.classification.m",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b23.classification.m",
       "dcterms:title": "Ccc.b23.classification.m",
@@ -186,7 +186,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b6.measurements.jsonld",
+      "@id": "ActivityDefinition-Ccc.b6.measurements",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b6.measurements",
       "dcterms:title": "Ccc.b6.measurements",
@@ -199,7 +199,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.b7.lti-dangersigns.jsonld",
+      "@id": "ActivityDefinition-Ccc.b7.lti-dangersigns",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.b7.lti-dangersigns",
       "dcterms:title": "Ccc.b7.lti-dangersigns",
@@ -212,7 +212,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccc.treatment.jsonld",
+      "@id": "ActivityDefinition-Ccc.treatment",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccc.treatment",
       "dcterms:title": "Ccc.treatment",
@@ -225,7 +225,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Ccca.registration.p.jsonld",
+      "@id": "ActivityDefinition-Ccca.registration.p",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Ccca.registration.p",
       "dcterms:title": "Ccca.registration.p",
@@ -238,7 +238,7 @@
       }
     },
     {
-      "@id": "ActivityDefinition-Cccb.registration.e.jsonld",
+      "@id": "ActivityDefinition-Cccb.registration.e",
       "@type": "fhir:ActivityDefinition",
       "dcterms:identifier": "ActivityDefinition/Cccb.registration.e",
       "dcterms:title": "Cccb.registration.e",
@@ -251,7 +251,7 @@
       }
     },
     {
-      "@id": "Library-Cccb1014symptoms2mp.jsonld",
+      "@id": "Library-Cccb1014symptoms2mp",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb1014symptoms2mp",
       "dcterms:title": "Ccc.B10-14.Symptoms.2m.p",
@@ -264,7 +264,7 @@
       }
     },
     {
-      "@id": "Library-Cccb1016signs2mp.jsonld",
+      "@id": "Library-Cccb1016signs2mp",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb1016signs2mp",
       "dcterms:title": "Ccc.B10-16.Signs.2m.p",
@@ -277,7 +277,7 @@
       }
     },
     {
-      "@id": "Library-Cccb1821signs2mm.jsonld",
+      "@id": "Library-Cccb1821signs2mm",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb1821signs2mm",
       "dcterms:title": "Ccc.B18-21.Signs.2m.m",
@@ -290,7 +290,7 @@
       }
     },
     {
-      "@id": "Library-Cccb1821symptoms2mm.jsonld",
+      "@id": "Library-Cccb1821symptoms2mm",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb1821symptoms2mm",
       "dcterms:title": "Ccc.B18-21.Symptoms.2m.m",
@@ -303,7 +303,7 @@
       }
     },
     {
-      "@id": "Library-Cccb22assessmentstests.jsonld",
+      "@id": "Library-Cccb22assessmentstests",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb22assessmentstests",
       "dcterms:title": "Ccc.B22.AssessmentsTests",
@@ -316,7 +316,7 @@
       }
     },
     {
-      "@id": "Library-Cccb22breastfeeding.jsonld",
+      "@id": "Library-Cccb22breastfeeding",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb22breastfeeding",
       "dcterms:title": "Ccc.B22.BreastFeeding",
@@ -329,7 +329,7 @@
       }
     },
     {
-      "@id": "Library-Cccb22fluidtest.jsonld",
+      "@id": "Library-Cccb22fluidtest",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb22fluidtest",
       "dcterms:title": "Ccc.B22.FluidTest",
@@ -342,7 +342,7 @@
       }
     },
     {
-      "@id": "Library-Cccb22respiratoryrate.jsonld",
+      "@id": "Library-Cccb22respiratoryrate",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb22respiratoryrate",
       "dcterms:title": "Ccc.B22.RespiratoryRate",
@@ -355,7 +355,7 @@
       }
     },
     {
-      "@id": "Library-Cccb22secondtemperature.jsonld",
+      "@id": "Library-Cccb22secondtemperature",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb22secondtemperature",
       "dcterms:title": "Ccc.B22.SecondTemperature",
@@ -368,7 +368,7 @@
       }
     },
     {
-      "@id": "Library-Cccb23classification.jsonld",
+      "@id": "Library-Cccb23classification",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb23classification",
       "dcterms:title": "Ccc.B23.Classification",
@@ -381,7 +381,7 @@
       }
     },
     {
-      "@id": "Library-Cccb23classificationm.jsonld",
+      "@id": "Library-Cccb23classificationm",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb23classificationm",
       "dcterms:title": "Ccc.B23.Classification.m",
@@ -394,7 +394,7 @@
       }
     },
     {
-      "@id": "Library-Cccb6measurements.jsonld",
+      "@id": "Library-Cccb6measurements",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb6measurements",
       "dcterms:title": "Ccc.B6.Measurements",
@@ -407,7 +407,7 @@
       }
     },
     {
-      "@id": "Library-Cccb7ltidangersigns.jsonld",
+      "@id": "Library-Cccb7ltidangersigns",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccb7ltidangersigns",
       "dcterms:title": "Ccc.B7.LTI-DangerSigns",
@@ -420,7 +420,7 @@
       }
     },
     {
-      "@id": "Library-Cccbase.jsonld",
+      "@id": "Library-Cccbase",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccbase",
       "dcterms:title": "CccBase",
@@ -433,7 +433,7 @@
       }
     },
     {
-      "@id": "Library-Ccccombineddataelements.jsonld",
+      "@id": "Library-Ccccombineddataelements",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Ccccombineddataelements",
       "dcterms:title": "Ccc.CombinedDataElements",
@@ -446,7 +446,7 @@
       }
     },
     {
-      "@id": "Library-Ccccondition.jsonld",
+      "@id": "Library-Ccccondition",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Ccccondition",
       "dcterms:title": "Ccccondition",
@@ -459,7 +459,7 @@
       }
     },
     {
-      "@id": "Library-Cccdt01.jsonld",
+      "@id": "Library-Cccdt01",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccdt01",
       "dcterms:title": "Cccdt01",
@@ -472,7 +472,7 @@
       }
     },
     {
-      "@id": "Library-Cccobservation.jsonld",
+      "@id": "Library-Cccobservation",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccobservation",
       "dcterms:title": "Cccobservation",
@@ -485,7 +485,7 @@
       }
     },
     {
-      "@id": "Library-Cccobservationvalueset.jsonld",
+      "@id": "Library-Cccobservationvalueset",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccobservationvalueset",
       "dcterms:title": "Cccobservation-valueset",
@@ -498,7 +498,7 @@
       }
     },
     {
-      "@id": "Library-Ccctreatment.jsonld",
+      "@id": "Library-Ccctreatment",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Ccctreatment",
       "dcterms:title": "Ccc.Treatment",
@@ -511,7 +511,7 @@
       }
     },
     {
-      "@id": "Library-Cccvalueset.jsonld",
+      "@id": "Library-Cccvalueset",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Cccvalueset",
       "dcterms:title": "Cccvalueset",
@@ -524,7 +524,7 @@
       }
     },
     {
-      "@id": "Library-Ccczscore.jsonld",
+      "@id": "Library-Ccczscore",
       "@type": "fhir:Library",
       "dcterms:identifier": "Library/Ccczscore",
       "dcterms:title": "Ccc.Z.Score",
@@ -537,7 +537,7 @@
       }
     },
     {
-      "@id": "PlanDefinition-Cccdt01.jsonld",
+      "@id": "PlanDefinition-Cccdt01",
       "@type": "fhir:PlanDefinition",
       "dcterms:identifier": "PlanDefinition/Cccdt01",
       "dcterms:title": "Cccdt01",
@@ -550,7 +550,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b10-14.symptoms.2m.p.jsonld",
+      "@id": "Questionnaire-Ccc.b10-14.symptoms.2m.p",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b10-14.symptoms.2m.p",
       "dcterms:title": "Ccc.B10-14.Symptoms.2m.p",
@@ -563,7 +563,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b10-16.signs.2m.p.jsonld",
+      "@id": "Questionnaire-Ccc.b10-16.signs.2m.p",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b10-16.signs.2m.p",
       "dcterms:title": "Ccc.B10-16.Signs.2m.p",
@@ -576,7 +576,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b18-21.signs.2m.m.jsonld",
+      "@id": "Questionnaire-Ccc.b18-21.signs.2m.m",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b18-21.signs.2m.m",
       "dcterms:title": "Ccc.B18-21.Signs.2m.m",
@@ -589,7 +589,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b18-21.symptoms.2m.m.jsonld",
+      "@id": "Questionnaire-Ccc.b18-21.symptoms.2m.m",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b18-21.symptoms.2m.m",
       "dcterms:title": "Ccc.B18-21.Symptoms.2m.m",
@@ -602,7 +602,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b22.assessmentstests.jsonld",
+      "@id": "Questionnaire-Ccc.b22.assessmentstests",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b22.assessmentstests",
       "dcterms:title": "Ccc.B22.AssessmentsTests",
@@ -615,7 +615,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b22.breastfeeding.jsonld",
+      "@id": "Questionnaire-Ccc.b22.breastfeeding",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b22.breastfeeding",
       "dcterms:title": "Ccc.B22.BreastFeeding",
@@ -628,7 +628,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b22.bronchodilatortest.jsonld",
+      "@id": "Questionnaire-Ccc.b22.bronchodilatortest",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b22.bronchodilatortest",
       "dcterms:title": "Ccc.B22.BronchodilatorTest",
@@ -641,7 +641,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b22.fluidtest.jsonld",
+      "@id": "Questionnaire-Ccc.b22.fluidtest",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b22.fluidtest",
       "dcterms:title": "Ccc.B22.FluidTest",
@@ -654,7 +654,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b22.hemoglobin.jsonld",
+      "@id": "Questionnaire-Ccc.b22.hemoglobin",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b22.hemoglobin",
       "dcterms:title": "Ccc.B22.Hemoglobin",
@@ -667,7 +667,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b22.respiratoryrate.jsonld",
+      "@id": "Questionnaire-Ccc.b22.respiratoryrate",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b22.respiratoryrate",
       "dcterms:title": "Ccc.B22.RespiratoryRate",
@@ -680,7 +680,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b22.secondtemperature.jsonld",
+      "@id": "Questionnaire-Ccc.b22.secondtemperature",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b22.secondtemperature",
       "dcterms:title": "Ccc.B22.SecondTemperature",
@@ -693,7 +693,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b23.classification.jsonld",
+      "@id": "Questionnaire-Ccc.b23.classification",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b23.classification",
       "dcterms:title": "Ccc.B23.Classification",
@@ -706,7 +706,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b23.classification.m.jsonld",
+      "@id": "Questionnaire-Ccc.b23.classification.m",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b23.classification.m",
       "dcterms:title": "Ccc.B23.Classification.m",
@@ -719,7 +719,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b6.measurements.jsonld",
+      "@id": "Questionnaire-Ccc.b6.measurements",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b6.measurements",
       "dcterms:title": "Ccc.B6.Measurements",
@@ -732,7 +732,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.b7.lti-dangersigns.jsonld",
+      "@id": "Questionnaire-Ccc.b7.lti-dangersigns",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.b7.lti-dangersigns",
       "dcterms:title": "Ccc.B7.LTI-DangerSigns",
@@ -745,7 +745,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccc.treatment.jsonld",
+      "@id": "Questionnaire-Ccc.treatment",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccc.treatment",
       "dcterms:title": "Ccc.Treatment",
@@ -758,7 +758,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Ccca.registration.p.jsonld",
+      "@id": "Questionnaire-Ccca.registration.p",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Ccca.registration.p",
       "dcterms:title": "CccA.Registration.P",
@@ -771,7 +771,7 @@
       }
     },
     {
-      "@id": "Questionnaire-Cccb.registration.e.jsonld",
+      "@id": "Questionnaire-Cccb.registration.e",
       "@type": "fhir:Questionnaire",
       "dcterms:identifier": "Questionnaire/Cccb.registration.e",
       "dcterms:title": "CccB.Registration.E",
@@ -784,7 +784,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b10-14.symptoms.2m.p.jsonld",
+      "@id": "StructureMap-Ccc.b10-14.symptoms.2m.p",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b10-14.symptoms.2m.p",
       "dcterms:title": "Ccc.b10-14.symptoms.2m.p",
@@ -797,7 +797,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b10-16.signs.2m.p.jsonld",
+      "@id": "StructureMap-Ccc.b10-16.signs.2m.p",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b10-16.signs.2m.p",
       "dcterms:title": "Ccc.b10-16.signs.2m.p",
@@ -810,7 +810,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b18-21.signs.2m.m.jsonld",
+      "@id": "StructureMap-Ccc.b18-21.signs.2m.m",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b18-21.signs.2m.m",
       "dcterms:title": "Ccc.b18-21.signs.2m.m",
@@ -823,7 +823,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b18-21.symptoms.2m.m.jsonld",
+      "@id": "StructureMap-Ccc.b18-21.symptoms.2m.m",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b18-21.symptoms.2m.m",
       "dcterms:title": "Ccc.b18-21.symptoms.2m.m",
@@ -836,7 +836,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b22.assessmentstests.jsonld",
+      "@id": "StructureMap-Ccc.b22.assessmentstests",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b22.assessmentstests",
       "dcterms:title": "Ccc.b22.assessmentstests",
@@ -849,7 +849,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b22.breastfeeding.jsonld",
+      "@id": "StructureMap-Ccc.b22.breastfeeding",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b22.breastfeeding",
       "dcterms:title": "Ccc.b22.breastfeeding",
@@ -862,7 +862,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b22.bronchodilatortest.jsonld",
+      "@id": "StructureMap-Ccc.b22.bronchodilatortest",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b22.bronchodilatortest",
       "dcterms:title": "Ccc.b22.bronchodilatortest",
@@ -875,7 +875,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b22.fluidtest.jsonld",
+      "@id": "StructureMap-Ccc.b22.fluidtest",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b22.fluidtest",
       "dcterms:title": "Ccc.b22.fluidtest",
@@ -888,7 +888,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b22.hemoglobin.jsonld",
+      "@id": "StructureMap-Ccc.b22.hemoglobin",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b22.hemoglobin",
       "dcterms:title": "Ccc.b22.hemoglobin",
@@ -901,7 +901,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b22.respiratoryrate.jsonld",
+      "@id": "StructureMap-Ccc.b22.respiratoryrate",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b22.respiratoryrate",
       "dcterms:title": "Ccc.b22.respiratoryrate",
@@ -914,7 +914,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b22.secondtemperature.jsonld",
+      "@id": "StructureMap-Ccc.b22.secondtemperature",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b22.secondtemperature",
       "dcterms:title": "Ccc.b22.secondtemperature",
@@ -927,7 +927,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b23.classification.jsonld",
+      "@id": "StructureMap-Ccc.b23.classification",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b23.classification",
       "dcterms:title": "Ccc.b23.classification",
@@ -940,7 +940,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b23.classification.m.jsonld",
+      "@id": "StructureMap-Ccc.b23.classification.m",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b23.classification.m",
       "dcterms:title": "Ccc.b23.classification.m",
@@ -953,7 +953,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b6.measurements.jsonld",
+      "@id": "StructureMap-Ccc.b6.measurements",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b6.measurements",
       "dcterms:title": "Ccc.b6.measurements",
@@ -966,7 +966,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.b7.lti-dangersigns.jsonld",
+      "@id": "StructureMap-Ccc.b7.lti-dangersigns",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.b7.lti-dangersigns",
       "dcterms:title": "Ccc.b7.lti-dangersigns",
@@ -979,7 +979,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccc.treatment.jsonld",
+      "@id": "StructureMap-Ccc.treatment",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccc.treatment",
       "dcterms:title": "Ccc.treatment",
@@ -992,7 +992,7 @@
       }
     },
     {
-      "@id": "StructureMap-Ccca.registration.p.jsonld",
+      "@id": "StructureMap-Ccca.registration.p",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Ccca.registration.p",
       "dcterms:title": "Ccca.registration.p",
@@ -1005,7 +1005,7 @@
       }
     },
     {
-      "@id": "StructureMap-Cccb.registration.e.jsonld",
+      "@id": "StructureMap-Cccb.registration.e",
       "@type": "fhir:StructureMap",
       "dcterms:identifier": "StructureMap/Cccb.registration.e",
       "dcterms:title": "Cccb.registration.e",
@@ -1018,7 +1018,7 @@
       }
     },
     {
-      "@id": "ImplementationGuide-smart.who.int.ccc.jsonld",
+      "@id": "ImplementationGuide-smart.who.int.ccc",
       "@type": "fhir:ImplementationGuide",
       "dcterms:identifier": "ImplementationGuide/smart.who.int.ccc",
       "dcterms:title": "WHO FHIR Implementation Guide (IG): Integrated Management of Childhood Illness (IMCI) in emergencies",

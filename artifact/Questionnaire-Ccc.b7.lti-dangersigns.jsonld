@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-Ccc.b7.lti-dangersigns.jsonld",
+  "@id": "Questionnaire-Ccc.b7.lti-dangersigns",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/Ccc.b7.lti-dangersigns",
   "schema:name": "Ccc.B7.LTI-DangerSigns",

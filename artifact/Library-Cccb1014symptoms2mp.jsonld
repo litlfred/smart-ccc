@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-Cccb1014symptoms2mp.jsonld",
+  "@id": "Library-Cccb1014symptoms2mp",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/Cccb1014symptoms2mp",
   "schema:name": "Cccb1014symptoms2mp",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureMap-Ccc.b22.assessmentstests.jsonld",
+  "@id": "StructureMap-Ccc.b22.assessmentstests",
   "@type": "fhir:StructureMap",
   "dcterms:identifier": "StructureMap/Ccc.b22.assessmentstests",
   "schema:name": "Ccc.b22.assessmentstests",

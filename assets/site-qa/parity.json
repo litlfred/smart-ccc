@@ -1,0 +1,129 @@
+{
+ "$schema": "site-parity-report/v1",
+ "outcome": "carries-everything",
+ "shortfall": [],
+ "droppedByRuling": [],
+ "current": {
+  "pages": 2369,
+  "counts": {
+   "siteNav": 0,
+   "search": 1274,
+   "navbarRow": 1274,
+   "rail": 1274,
+   "translationMeta": 1275
+  },
+  "dirs": [
+   "ar",
+   "artifact",
+   "assets",
+   "cat-harness",
+   "cat-harness-tools",
+   "catalogue",
+   "code",
+   "docs",
+   "en",
+   "es",
+   "fhir-artifact-index",
+   "folio-assistant-core",
+   "fr",
+   "id-lookup",
+   "questionnaires",
+   "ru",
+   "smart-base",
+   "who-iris",
+   "zh"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
+ "candidate": {
+  "pages": 4120,
+  "counts": {
+   "siteNav": 1,
+   "search": 2055,
+   "navbarRow": 2055,
+   "rail": 2055,
+   "translationMeta": 2056
+  },
+  "dirs": [
+   "ar",
+   "artifact",
+   "assets",
+   "cat-harness",
+   "cat-harness-tools",
+   "catalogue",
+   "code",
+   "docs",
+   "en",
+   "es",
+   "fhir-artifact-index",
+   "folio-assistant-core",
+   "fr",
+   "id-lookup",
+   "questionnaires",
+   "ru",
+   "smart-base",
+   "who-iris",
+   "zh"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
+ "baseline": {
+  "features": {
+   "pages": 4120,
+   "counts": {
+    "siteNav": 1,
+    "search": 2055,
+    "navbarRow": 2055,
+    "rail": 2055,
+    "translationMeta": 2056
+   },
+   "dirs": [
+    "ar",
+    "artifact",
+    "assets",
+    "cat-harness",
+    "cat-harness-tools",
+    "catalogue",
+    "code",
+    "docs",
+    "en",
+    "es",
+    "fhir-artifact-index",
+    "folio-assistant-core",
+    "fr",
+    "id-lookup",
+    "questionnaires",
+    "ru",
+    "smart-base",
+    "who-iris",
+    "zh"
+   ],
+   "index": [
+    "search",
+    "navbarRow",
+    "rail",
+    "translationMeta"
+   ],
+   "stamp": {
+    "present": true
+   }
+  },
+  "from": "4c284dc2e8f6"
+ }
+}

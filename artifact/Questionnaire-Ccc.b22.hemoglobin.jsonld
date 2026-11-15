@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-Ccc.b22.hemoglobin.jsonld",
+  "@id": "Questionnaire-Ccc.b22.hemoglobin",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/Ccc.b22.hemoglobin",
   "schema:name": "Ccc.B22.Hemoglobin",

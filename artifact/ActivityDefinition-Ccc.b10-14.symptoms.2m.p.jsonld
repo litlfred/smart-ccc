@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ActivityDefinition-Ccc.b10-14.symptoms.2m.p.jsonld",
+  "@id": "ActivityDefinition-Ccc.b10-14.symptoms.2m.p",
   "@type": "fhir:ActivityDefinition",
   "dcterms:identifier": "ActivityDefinition/Ccc.b10-14.symptoms.2m.p",
   "schema:version": "0.1.0",
