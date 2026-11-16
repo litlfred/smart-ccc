@@ -2,14 +2,14 @@
   "$schema": "folio-site-build/v1",
   "instance": "smart-ccc",
   "platform": {
-    "commit": "418672b09492c6c742a4f9bd09038288a29edfab"
+    "commit": "f027203d3b1bb0b6cd152a7a317a453f6517ac5c"
   },
   "source": {
     "repo": "litlfred/smart-ccc",
     "ref": "main",
-    "commit": "7cde35ed696c4c680c6327d9552b202f6e851f9c"
+    "commit": "d3561cd2ee5a16f44832d3cd0216db34746851b7"
   },
-  "builtAt": "2026-11-16T07:54:58.419Z",
+  "builtAt": "2026-11-16T15:08:48.161Z",
   "ast": {
     "commit": "de626e5301a81d7696ae39e46c83742ee9acb35c",
     "verdict": "valid",
