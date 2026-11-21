@@ -4,46 +4,6 @@
  "shortfall": [],
  "droppedByRuling": [],
  "current": {
-  "pages": 4120,
-  "counts": {
-   "siteNav": 1,
-   "search": 2055,
-   "navbarRow": 2055,
-   "rail": 2055,
-   "translationMeta": 2056
-  },
-  "dirs": [
-   "ar",
-   "artifact",
-   "assets",
-   "cat-harness",
-   "cat-harness-tools",
-   "catalogue",
-   "code",
-   "docs",
-   "en",
-   "es",
-   "fhir-artifact-index",
-   "folio-assistant-core",
-   "fr",
-   "id-lookup",
-   "questionnaires",
-   "ru",
-   "smart-base",
-   "who-iris",
-   "zh"
-  ],
-  "index": [
-   "search",
-   "navbarRow",
-   "rail",
-   "translationMeta"
-  ],
-  "stamp": {
-   "present": true
-  }
- },
- "candidate": {
   "pages": 6011,
   "counts": {
    "siteNav": 1,
@@ -83,15 +43,57 @@
    "present": true
   }
  },
+ "candidate": {
+  "pages": 6025,
+  "counts": {
+   "siteNav": 1,
+   "search": 3013,
+   "navbarRow": 3013,
+   "rail": 3013,
+   "translationMeta": 3014
+  },
+  "dirs": [
+   "ar",
+   "artifact",
+   "assets",
+   "cat-harness",
+   "cat-harness-tools",
+   "catalogue",
+   "code",
+   "docs",
+   "en",
+   "es",
+   "fhir-artifact-index",
+   "folio-assistant-core",
+   "fr",
+   "id-lookup",
+   "payload",
+   "questionnaires",
+   "ru",
+   "slices",
+   "smart-base",
+   "who-iris",
+   "zh"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
  "baseline": {
   "features": {
-   "pages": 6011,
+   "pages": 6025,
    "counts": {
     "siteNav": 1,
-    "search": 3005,
-    "navbarRow": 3005,
-    "rail": 3005,
-    "translationMeta": 3006
+    "search": 3013,
+    "navbarRow": 3013,
+    "rail": 3013,
+    "translationMeta": 3014
    },
    "dirs": [
     "ar",
@@ -108,8 +110,10 @@
     "folio-assistant-core",
     "fr",
     "id-lookup",
+    "payload",
     "questionnaires",
     "ru",
+    "slices",
     "smart-base",
     "who-iris",
     "zh"
@@ -124,6 +128,6 @@
     "present": true
    }
   },
-  "from": "acf77d02b614"
+  "from": "4ca9cb5fe5e3"
  }
 }
